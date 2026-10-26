@@ -8,4 +8,6 @@ export default defineConfig({
     // Chuyển các request /api sang Selenium server (server/index.js)
     proxy: { '/api': 'http://localhost:3001' },
   },
+    base: '/automatic-leads-import-tool/',
+
 })
